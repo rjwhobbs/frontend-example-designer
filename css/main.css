@@ -1,0 +1,15 @@
+/* inherit border-box on all elements in the universe and before and after
+ */
+ *, 
+ *:before, 
+ *:after {
+   box-sizing: inherit;
+ }
+
+ .wrapper {
+	width: 97%;
+	max-width: 1200px;
+	margin: 0 auto;
+	float: none;
+	background-color: #fff;
+}

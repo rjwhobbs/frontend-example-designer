@@ -1,0 +1,17 @@
+.con-fixed-h {
+  position: relative;
+  height: 600px;
+  border: 1px solid black;
+}
+
+.pos-tr {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.pos-bl {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
