@@ -2,20 +2,25 @@
   position: relative;
   height: 48vw;
   max-height: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .pos-tr {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 21%;
+  width: 42%;
+  float: right;
 }
 
 .pos-bl {
   position: absolute;
-  top: 48%;
+  top: 50%;
   left: 3%;
   width: 30%;
+}
+
+.clear {
+  content: "";
+  clear: both;
 }
 
 .row {

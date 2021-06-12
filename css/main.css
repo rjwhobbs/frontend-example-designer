@@ -18,10 +18,14 @@ h1 {
 }
 
 header {
-  z-index: 1;
-  position: absolute;
-  right: 12%;
-  top: 31%;
+  /* z-index: 1; */
+  /* position: absolute; */
+  /* right: 12%;
+  top: 31%; */
+  /* display: inline-block; */
+  float: right;
+  margin-right: 20%;
+  margin-top: 9%;
 }
 
 .wrapper {
@@ -34,10 +38,12 @@ header {
 
 .main-photo {
   z-index: 1;
-  position: absolute;
-  top: 13%;
-  left: 9%;
-  width: 40%;
+  position: relative;
+  /* top: 13%; */
+  /* left: 9%; */
+  width: 80%;
+  margin-left: 18%;
+  margin-top: 6%;
 }
 
 .pink-box {
@@ -50,10 +56,7 @@ header {
 }
 
 .green-box-t {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 13%;
+  width: 26%;
   height: 7%;
   background-color: var(--green);
 }
