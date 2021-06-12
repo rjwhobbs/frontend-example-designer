@@ -1,7 +1,8 @@
 .con-fixed-h {
   position: relative;
-  height: 600px;
-  border: 1px solid black;
+  height: 48vw;
+  /* border: 1px solid black; */
+  max-height: 600px;
 }
 
 .pos-tr {
