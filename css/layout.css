@@ -18,9 +18,9 @@
   width: 30%;
 }
 
-.ta-c {
-  text-align: center;
-  display: block;
+.row {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }
 
 /* TEMPLATE */
