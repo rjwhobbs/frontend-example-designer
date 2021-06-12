@@ -1,12 +1,30 @@
 /* inherit border-box on all elements in the universe and before and after
  */
- *, 
- *:before, 
- *:after {
-   box-sizing: inherit;
- }
+*, 
+*:before, 
+*:after {
+  box-sizing: inherit;
+}
 
- .wrapper {
+body {
+  font: 1em/1.4 'Montserrat', sans-serif;
+}
+
+h1 {
+  font: 6em/1 'Bebas Neue', cursive;
+  text-align: right;
+  color: var(--green);
+  margin: 0;
+}
+
+header {
+  z-index: 1;
+  position: absolute;
+  right: 12%;
+  top: 31%;
+}
+
+.wrapper {
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
@@ -18,7 +36,7 @@
   z-index: 1;
   position: absolute;
   top: 13%;
-  left: 6%;
+  left: 9%;
   width: 40%;
 }
 
@@ -28,5 +46,23 @@
   width: 29%; 
   height: 25%;
   top: 11%;
-  left: 18%;
+  left: 21%;
+}
+
+.green-box-t {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 13%;
+  height: 7%;
+  background-color: var(--green);
+}
+
+.green-box-b {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 13%;
+  height: 7%;
+  background-color: var(--green);
 }

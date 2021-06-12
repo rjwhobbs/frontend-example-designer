@@ -1,7 +1,6 @@
 .con-fixed-h {
   position: relative;
   height: 48vw;
-  /* border: 1px solid black; */
   max-height: 600px;
 }
 
@@ -15,8 +14,13 @@
 .pos-bl {
   position: absolute;
   top: 48%;
-  left: 0%;
+  left: 3%;
   width: 30%;
+}
+
+.ta-c {
+  text-align: center;
+  display: block;
 }
 
 /* TEMPLATE */
