@@ -8,10 +8,49 @@
   position: absolute;
   top: 0;
   right: 0;
+  width: 21%;
 }
 
 .pos-bl {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  top: 48%;
+  left: 0%;
+  width: 30%;
+}
+
+/* TEMPLATE */
+
+/* xs */
+
+@media (min-width: 480px){
+}
+
+/* sm */
+
+@media (min-width: 576px){
+}
+
+/* md */
+
+@media (min-width: 768px){
+}
+
+/* lg */
+
+@media (min-width: 992px){
+}
+
+/* xl */
+
+@media (min-width: 1200px) {
+}
+
+/* xxl */
+
+@media (min-width: 1400px) {
+}
+
+/* xxxl */
+
+@media (min-width: 2000px) {
 }

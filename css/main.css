@@ -7,9 +7,26 @@
  }
 
  .wrapper {
-	width: 97%;
+	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
 	float: none;
 	background-color: #fff;
+}
+
+.main-photo {
+  z-index: 1;
+  position: absolute;
+  top: 13%;
+  left: 6%;
+  width: 40%;
+}
+
+.pink-box {
+  position: absolute;
+  background-color: var(--pink);
+  width: 29%; 
+  height: 25%;
+  top: 11%;
+  left: 18%;
 }
