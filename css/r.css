@@ -14,6 +14,10 @@
   display: block;
 }
 
+.r-d-n {
+  display: none;
+}
+
 /* margin */ 
 
 .r-mr-1 {
@@ -47,6 +51,9 @@
 /* md */
 
 @media (min-width: 768px){
+  .r-d-n-md {
+    display: none !important;
+  }
 }
 
 /* lg */

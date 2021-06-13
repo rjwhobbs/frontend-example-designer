@@ -11,15 +11,15 @@ body {
 }
 
 h1 {
-  font: 4.5em/1 'Bebas Neue', cursive;
+  font: 3.4em/1 'Bebas Neue', cursive;
   color: var(--green);
   margin: 0;
 }
 
 header {
   float: right;
-  margin-right: 22%;
-  margin-top: 6%;
+  margin-right: 18%;
+  margin-top: 3%;
 }
 
 .wrapper {
@@ -79,6 +79,14 @@ header {
 /* md */
 
 @media (min-width: 768px){
+  header {
+    margin-right: 22%;
+    margin-top: 6%;
+  }
+
+  h1 {
+    font-size: 4.5em;
+  }
 }
 
 /* lg */
