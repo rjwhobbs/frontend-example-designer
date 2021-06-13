@@ -46,6 +46,13 @@
 /* sm */
 
 @media (min-width: 576px){
+  .r-ta-u-sm {
+    text-align: unset;
+  }
+
+  .r-d-b-sm {
+    display: block;
+  }
 }
 
 /* md */
@@ -53,6 +60,10 @@
 @media (min-width: 768px){
   .r-d-n-md {
     display: none !important;
+  }
+
+  .r-ta-u-md {
+    text-align: unset;
   }
 }
 

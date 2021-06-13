@@ -1,9 +1,7 @@
 .con-fixed-h {
   position: relative;
-  height: 48vw;
-  max-height: 600px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 
 .pos-tr {
@@ -12,10 +10,16 @@
 }
 
 .pos-bl {
-  position: absolute;
-  top: 50%;
-  left: 3%;
+  position: static;
+  /* top: 50%; */
+  /* left: 3%; */
   width: 30%;
+  /* bottom: 0%; */
+  float: left;
+  margin-top: -21%;
+  /* text-align: left; */
+  /* align-self: inherit; */
+  margin-left: 7%;
 }
 
 .clear {
@@ -38,6 +42,21 @@
 /* sm */
 
 @media (min-width: 576px){
+  .con-fixed-h {
+    height: 48vw;
+    max-height: 600px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .pos-bl {
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    width: 30%;
+    float: none;
+    margin-left: unset;
+    margin-top: unset;
+  }
 }
 
 /* md */

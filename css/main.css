@@ -35,18 +35,18 @@ header {
   position: relative;
   /* top: 13%; */
   /* left: 9%; */
-  width: 80%;
-  margin-left: 18%;
-  margin-top: 6%;
+  width: 73%;
+  margin-left: unset;
+  margin-top: 3%;
 }
 
 .pink-box {
   position: absolute;
   background-color: var(--pink);
-  width: 29%; 
-  height: 25%;
-  top: 11%;
-  left: 21%;
+  width: 43%;
+  height: 18%;
+  top: 5%;
+  left: 45%;
 }
 
 .green-box-t {
@@ -74,6 +74,18 @@ header {
 /* sm */
 
 @media (min-width: 576px){
+  .main-photo {
+    width: 80%;
+    margin-left: 18%;
+    margin-top: 6%;
+  }
+
+  .pink-box {
+    width: 29%; 
+    height: 25%;
+    top: 11%;
+    left: 21%;
+  }
 }
 
 /* md */
