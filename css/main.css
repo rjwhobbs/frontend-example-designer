@@ -12,17 +12,11 @@ body {
 
 h1 {
   font: 6em/1 'Bebas Neue', cursive;
-  text-align: right;
   color: var(--green);
   margin: 0;
 }
 
 header {
-  /* z-index: 1; */
-  /* position: absolute; */
-  /* right: 12%;
-  top: 31%; */
-  /* display: inline-block; */
   float: right;
   margin-right: 20%;
   margin-top: 9%;
