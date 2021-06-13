@@ -19,7 +19,7 @@ h1 {
 header {
   float: right;
   margin-right: 18%;
-  margin-top: 3%;
+  margin-top: 9%;
 }
 
 .wrapper {
@@ -85,6 +85,10 @@ header {
     height: 25%;
     top: 11%;
     left: 21%;
+  }
+
+  header {
+    margin-top: 3%;
   }
 }
 
