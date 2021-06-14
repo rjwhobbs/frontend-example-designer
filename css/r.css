@@ -18,6 +18,12 @@
   display: none;
 }
 
+/* position */
+
+.r-p-r {
+  position: relative;
+}
+
 /* margin */ 
 
 .r-mr-1 {

@@ -45,14 +45,14 @@ header {
   background-color: var(--pink);
   width: 43%;
   height: 18%;
-  top: 5%;
+  top: 2%;
   left: 45%;
 }
 
 .green-box-t {
-  width: 26%;
-  height: 7%;
-  background-color: #22783e;
+  width: 80px;
+  height: 17px; 
+  background-color: var(--green);
 }
 
 .green-box-b {
@@ -81,14 +81,19 @@ header {
   }
 
   .pink-box {
-    width: 29%; 
-    height: 25%;
-    top: 11%;
-    left: 21%;
+    width: 47%;
+    height: 27%;
+    top: 5%;
+    left: 53%;
   }
 
   header {
     margin-top: 3%;
+  }
+
+  .green-box-t {
+    width: 128px;
+    height: 32px;
   }
 }
 
@@ -115,6 +120,12 @@ header {
 
   h1 {
     font-size: 6em;
+  }
+
+  .green-box-t {
+    width: 158px;
+    height: 40px;
+    background-color: #22783e;
   }
 }
 

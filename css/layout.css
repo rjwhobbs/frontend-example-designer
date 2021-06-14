@@ -11,14 +11,9 @@
 
 .pos-bl {
   position: static;
-  /* top: 50%; */
-  /* left: 3%; */
   width: 30%;
-  /* bottom: 0%; */
   float: left;
   margin-top: -21%;
-  /* text-align: left; */
-  /* align-self: inherit; */
   margin-left: 7%;
 }
 
@@ -51,8 +46,8 @@
   .pos-bl {
     position: absolute;
     top: 50%;
-    left: 3%;
-    width: 30%;
+    left: 5%;
+    width: 60%;
     float: none;
     margin-left: unset;
     margin-top: unset;
