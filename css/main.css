@@ -50,7 +50,7 @@ header {
 }
 
 .green-box-t {
-  width: 80px;
+  width: 14%;
   height: 17px; 
   background-color: var(--green);
 }
@@ -59,7 +59,7 @@ header {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 80px;
+  width: 14%;
   height: 17px; 
   background-color: var(--green);
 }
@@ -92,13 +92,12 @@ header {
   }
 
   .green-box-t {
-    width: 128px;
-    height: 32px;
+    width: 28%;
+    height: 21px;
   }
 
   .green-box-b {
-    width: 128px;
-    height: 32px;
+    height: 21px;
   }
 }
 
@@ -112,6 +111,14 @@ header {
 
   h1 {
     font-size: 4.5em;
+  }
+
+  .green-box-t {
+    height: 36px;
+  }
+
+  .green-box-b {
+    height: 36px;
   }
 }
 
@@ -128,12 +135,10 @@ header {
   }
 
   .green-box-t {
-    width: 158px;
     height: 40px;
   }
 
   .green-box-b {
-    width: 158px;
     height: 40px;
   }
 }
