@@ -59,8 +59,8 @@ header {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 13%;
-  height: 7%;
+  width: 80px;
+  height: 17px; 
   background-color: var(--green);
 }
 
@@ -95,6 +95,11 @@ header {
     width: 128px;
     height: 32px;
   }
+
+  .green-box-b {
+    width: 128px;
+    height: 32px;
+  }
 }
 
 /* md */
@@ -125,7 +130,11 @@ header {
   .green-box-t {
     width: 158px;
     height: 40px;
-    background-color: #22783e;
+  }
+
+  .green-box-b {
+    width: 158px;
+    height: 40px;
   }
 }
 
