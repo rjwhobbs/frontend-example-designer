@@ -27,6 +27,11 @@
   grid-template-rows: 1fr 1fr;
 }
 
+.about-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 /* TEMPLATE */
 
 /* xs */
