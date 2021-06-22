@@ -14,6 +14,10 @@
   display: grid;
 }
 
+.r-d-f {
+  display: flex;
+}
+
 .r-d-b {
   display: block;
 }
@@ -40,10 +44,24 @@
   padding-right: 1em !important;
 }
 
+.r-pb-p2 {
+  padding-bottom: 0.2em;
+}
+
+/* TEXT STYLE */
+
+.r-bold {
+  font-weight: bold;
+}
+
 /* letter spacing */ 
 
 .r-ls-5 {
   letter-spacing: 5px;
+}
+
+.r-ls-4  {
+  letter-spacing: 4px;
 }
 
 /* Media queries */
