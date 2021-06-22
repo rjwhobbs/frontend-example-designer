@@ -79,8 +79,15 @@ header {
   width: 60%
 }
 
+.about-sqs-2 {
+  position: absolute;
+  bottom: -2%;
+  left: 58%;
+  width: 30%;
+}
+
 .about-img {
-  margin: 8% 0% 0% 10%;
+  margin: 8% 0% 6% 10%;
   width: 69%;
 }
 
