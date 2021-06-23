@@ -24,9 +24,9 @@ h1, h2, h3, h4 {
   margin: 0;
 }
 
-h3 {
+/* h3 {
   font-size: 2.5em;
-}
+} */
 
 header {
   float: right;
@@ -76,6 +76,14 @@ header {
   margin-top: 10px;
 }
 
+.green-box-b-row {
+  width: 14%;
+  height: 36px;
+  background-color: var(--green);
+  /* justify-self: end; */
+  /* margin-top: 10px; */
+}
+
 .about-sqs {
   position: absolute;
   transform: rotate(90deg);
@@ -86,19 +94,19 @@ header {
 .about-sqs-2 {
   position: absolute;
   bottom: -2%;
-  left: 58%;
+  left: 54%;
   width: 30%;
 }
 
 .about-img {
-  margin: 8% 0% 6% 10%;
-  width: 69%;
+  margin: 8% 0% 6% 11%;
+  width: 61%;
 }
 
 .about-desc {
   position: absolute;
   top: 35%;
-  left: 18%;
+  left: 29%;
 }
 
 .about-info {
