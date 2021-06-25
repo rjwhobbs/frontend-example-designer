@@ -60,12 +60,21 @@
   padding-bottom: 0.2rem;
 }
 
+.r-px-p5{
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
 /* TEXT STYLE */
 
 /* font sizing */
 
 .r-fs-p95 {
   font-size: 0.95rem;
+}
+
+.r-fs-1 {
+  font-size: 1rem;
 }
 
 .r-fs-3 {
