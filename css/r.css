@@ -40,10 +40,18 @@
   position: relative;
 }
 
-/* margin */ 
+/* MARGIN */ 
+
+/* right */
 
 .r-mr-1 {
   margin-right: 1rem;
+}
+
+/* top */
+
+.r-mt-p4 {
+  margin-top: 0.4rem;
 }
 
 .r-mt-2 {
@@ -51,6 +59,10 @@
 }
 
 /* padding */
+
+.r-pl-0 {
+  padding-left: 0 !important;
+}
 
 .r-pr-1 {
   padding-right: 1rem !important;
@@ -60,9 +72,14 @@
   padding-bottom: 0.2rem;
 }
 
-.r-px-p5{
+.r-px-p5 {
   padding-left: .5rem;
   padding-right: .5rem;
+}
+
+.r-px-p7 {
+  padding-left: .7rem;
+  padding-right: .7rem;
 }
 
 /* TEXT STYLE */
