@@ -187,6 +187,10 @@ header {
   z-index: 1;
 }
 
+.cont-info-con {
+  margin-left: 7%;
+}
+
 /* Media queries */
 
 /* xs */
