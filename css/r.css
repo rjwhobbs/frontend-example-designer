@@ -68,6 +68,14 @@
   padding-right: 1rem !important;
 }
 
+.r-pr-3 {
+  padding-right: 3rem !important;
+}
+
+.r-pr-4 {
+  padding-right: 4rem !important;
+}
+
 .r-pb-p2 {
   padding-bottom: 0.2rem;
 }
