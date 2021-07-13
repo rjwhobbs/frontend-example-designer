@@ -30,7 +30,7 @@
 .contact-col,
 .about-col {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
 }
 
 /* TEMPLATE */
@@ -63,11 +63,15 @@
 /* md */
 
 @media (min-width: 768px){
+  .about-col {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 /* lg */
 
 @media (min-width: 992px){
+  
 }
 
 /* xl */

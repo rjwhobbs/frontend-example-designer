@@ -70,7 +70,7 @@ header {
 
 .green-box-tr-row {
   width: 10%;
-  height: 36px;
+  height: 21px;
   background-color: var(--green);
   justify-self: end;
   margin-top: 10px;
@@ -85,7 +85,7 @@ header {
 
 .green-box-bl-row {
   width: 10%;
-  height: 36px;
+  height: 21px;
   background-color: var(--green);
 }
 
@@ -105,7 +105,7 @@ header {
 
 .about-sqs-2 {
   position: absolute;
-  bottom: -2%;
+  bottom: 24%;
   left: 59%;
   width: 30%;
 }
@@ -117,13 +117,13 @@ header {
 
 .about-desc {
   position: absolute;
-  top: 35%;
-  left: 21%;
+  top: 14%;
+  left: 17%;
 }
 
 .about-info {
   flex-grow: 1;
-  width: 0;
+  width: unset;
   /* For more siblings add:  */
   /* break-after: always; */
 }
@@ -226,6 +226,12 @@ header {
   .green-box-b {
     height: 21px;
   }
+
+  .about-img {
+    margin: 8% 0% 32% 19%;
+  }
+
+
 }
 
 /* md */
@@ -247,6 +253,27 @@ header {
   .green-box-b {
     height: 36px;
   }
+
+  .green-box-tr-row {
+    height: 36px;
+  }
+
+  .green-box-bl-row {
+    height: 36px;
+  }
+
+  .about-desc {
+    top: 22%;
+    left: 21%;
+  }
+
+  .about-img {
+    margin: 8% 0% 6% 19%;
+  }
+
+  .about-sqs-2 {
+    bottom: -2%;
+  }
 }
 
 /* lg */
@@ -267,6 +294,16 @@ header {
 
   .green-box-b {
     height: 40px;
+  }
+
+  .about-desc {
+    top: 35%;
+  }
+
+  .about-info {
+    width: 0;
+    /* For more siblings add:  */
+    /* break-after: always; */
   }
 }
 
